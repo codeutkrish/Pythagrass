@@ -1,0 +1,9 @@
+
+Skill-based matching: semantic matching using embeddings, so "ML" and "machine learning" are treated the same.
+Skill gap analysis: a ranked list of missing skills for each opportunity.
+Learning paths: each gap links to free or low-cost courses and programs.
+Explainable results: a "Why this?" card for every recommendation.
+Blind scoring: sensitive attributes are excluded from the match score.
+Fairness audits: disparity metrics across groups such as rural vs. urban and gender.
+Mobile-first and multilingual: designed for low bandwidth, with Hindi and English support.
+Placement cell view: aggregate skill-gap insights for colleges
