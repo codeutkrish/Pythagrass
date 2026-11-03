@@ -4,6 +4,8 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // GitHub Pages serves this project from /Pythagrass/, not the domain root.
+  base: '/Pythagrass/',
   plugins: [react()],
   resolve: {
     alias: {
