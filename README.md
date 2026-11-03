@@ -1,49 +1,51 @@
 # Pythagrass
 
-Campus-to-Employment Opportunity Matcher for students, colleges, and recruiters.
+Pythagrass is a campus-to-employment opportunity matcher built to help students discover relevant internships, jobs, and upskilling programs with more clarity, fairness, and confidence.
 
-Pythagrass is designed to help students discover relevant internships, jobs, and upskilling programs by matching their skills to real opportunities, identifying gaps, and explaining recommendations in plain language.
+It connects a student's profile, skills, and learning gaps to opportunities in a way that is explainable, transparent, and designed to reduce bias in the matching process.
 
 ## Why this project matters
 
 Talent is everywhere. Opportunity isn't.
 
-Students—especially first-generation, rural, and economically disadvantaged learners—often struggle to find relevant opportunities because information is scattered across platforms like LinkedIn, Internshala, college notice boards, and WhatsApp groups. Many students don't receive clear feedback on why they were rejected or what they should learn next.
+Many students—especially first-generation, rural, and economically disadvantaged learners—struggle to discover suitable opportunities because information is scattered across platforms such as LinkedIn, Internshala, college notice boards, and WhatsApp groups. On top of that, they often do not understand why they were rejected or what skills they need to build next.
 
-Pythagrass aims to reduce that gap by making career matching more transparent, inclusive, and skill-based.
+Pythagrass aims to make career discovery more equitable by turning opportunity matching into a fair, skill-based system.
 
 ## The Problem
 
-- Opportunities are fragmented across multiple platforms.
-- First-generation and rural students often lack professional networks and mentors.
-- Students rarely understand why they were rejected.
-- Popularity-based ranking systems can unintentionally favor already-privileged profiles.
-- Skill-matching without context can feel unfair or opaque.
+- Opportunities are fragmented across different platforms and channels.
+- Students often lack mentors, networking support, and guidance.
+- Many applicants are rejected without actionable feedback.
+- Hiring and recommendation systems can unintentionally prefer already-privileged profiles.
+- Keyword-based matching often fails when skills are described differently across roles and domains.
 
 ## Our Solution
 
-Pythagrass brings together four core ideas:
+Pythagrass is designed as a unified platform that helps students and institutions in four ways:
 
 1. Match student skills to internships, jobs, and skill programs.
-2. Identify gaps between current skills and the target role.
-3. Explain every recommendation in plain language.
-4. Prevent bias by design.
+2. Identify the gap between a student's current capabilities and the target role.
+3. Explain every suggestion in plain, understandable language.
+4. Reduce bias by design through fair and transparent scoring.
 
-The system is built around skill-based semantic matching so that related terms such as "ML" and "machine learning" are treated as equivalent.
+The platform uses semantic matching so that related terms like "ML" and "machine learning" are treated as equivalent, improving relevance and reducing unfair exclusions.
 
 ## Key Features
 
 - Skill-based matching using semantic similarity
-- Skill gap analysis for each opportunity
-- Learning path suggestions based on missing skills
-- Explainable recommendations with a "Why this?" view
-- Bias-aware scoring that excludes sensitive attributes from the final match score
-- Fairness audits across different student groups
-- Mobile-first experience for low-bandwidth environments
+- Skill gap analysis for every opportunity
+- Personalized learning paths and recommended upskilling resources
+- Explainable recommendation cards with a "Why this?" perspective
+- Fair, bias-aware scoring that excludes sensitive attributes from the final match score
+- Fairness audits across student groups and demographics
+- Mobile-friendly experience optimized for low-bandwidth use
 - Multilingual support for Hindi and English
 - Placement cell insights for colleges and institutions
 
-## How it Works
+## How it works
+
+The system follows a simple but powerful workflow:
 
 Student profile → Skill extraction → Skill taxonomy mapping
 
@@ -53,17 +55,17 @@ Matching engine → Gap analysis → Learning path suggestions
 
 Learning path suggestions → Explainable recommendation output
 
-## Tech Stack
+## Tech stack
 
-This repository currently includes the frontend scaffolding and project configuration for the platform.
+This repository contains the frontend scaffolding and app structure for the platform.
 
 - Frontend: React + Vite + TypeScript
 - Styling: Tailwind CSS
-- UI utilities: React, Lucide icons
-- Data layer: Supabase JavaScript client
+- UI components: React + Lucide icons
+- Data access: Supabase JavaScript client
 - Tooling: ESLint, PostCSS, TypeScript
 
-## Project Structure
+## Project structure
 
 ```text
 .
@@ -88,7 +90,7 @@ This repository currently includes the frontend scaffolding and project configur
 └── ...
 ```
 
-## Getting Started
+## Getting started
 
 Install dependencies:
 
@@ -102,7 +104,7 @@ Start the development server:
 npm run dev
 ```
 
-Build the project for production:
+Create a production build:
 
 ```bash
 npm run build
@@ -122,25 +124,25 @@ npm run lint
 
 ## Documentation
 
-The repository includes supporting docs that describe the vision and approach:
+This repository includes supporting documents that describe the product direction and implementation approach:
 
-- `OUR SOLUTION.md` — high-level product concept
-- `FEATURES` — key product capabilities
-- `THE PROBLEM` — problem statement and motivation
-- `HOW IT WORKS.md` — workflow and architecture overview
-- `TECH STACK.md` — framework and technical stack
+- `OUR SOLUTION.md` — high-level solution summary
+- `FEATURES` — product capabilities
+- `THE PROBLEM` — motivation and pain points
+- `HOW IT WORKS.md` — system flow and logic
+- `TECH STACK.md` — technology choices
 
 ## Status
 
-This project is in active concept and MVP development work, with a focus on inclusive, explainable, and fair skill-based opportunity matching.
+Pythagrass is currently in active concept and MVP development, with a focus on inclusive, explainable, and fair career matching for students.
 
 ## License
 
-No license file is currently included in the repository.
+No license file is currently included in this repository.
 
 ## Contact
 
-For project updates or collaboration, connect with the repository owner on GitHub: `codeutkrish`
+For collaboration or project updates, connect with the repository owner on GitHub: `codeutkrish`
 
 ---
 
