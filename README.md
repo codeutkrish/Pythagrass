@@ -30,3 +30,18 @@ Blind scoring: sensitive attributes are excluded from the match score.
 Fairness audits: disparity metrics across groups such as rural vs. urban and gender.
 Mobile-first and multilingual: designed for low bandwidth, with Hindi and English support.
 Placement cell view: aggregate skill-gap insights for colleges.
+
+Student profile ──► Skill extraction ──► Skill taxonomy mapping
+                                               │
+Opportunity data ──► Cleaning + embeddings ────┤
+                                               ▼
+                                   Matching engine
+                          (semantic similarity + eligibility filters)
+                                               │
+                                               ▼
+                        Gap analysis ──► Learning path suggestions
+                                               │
+                                               ▼
+                                  "Why this?" explanation
+
+                                  
